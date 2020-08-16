@@ -27,7 +27,7 @@ namespace HardwareInventory.Controllers
         }
 
         // GET api/<UsersController>/5
-        [HttpGet("{id}")]
+        [HttpGet("{id}/records")]
         public async Task<ActionResult> Get([FromRoute]int id)
         {
             if (!ModelState.IsValid)
